@@ -1,8 +1,4 @@
-name: Expo Start
-on: [pull_request]
-jobs:
-  publish:
-    name: Install and Start
-    runs:
-      using: 'docker'
-      image: 'Dockerfile'
+name: Expo Start on Docker
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
